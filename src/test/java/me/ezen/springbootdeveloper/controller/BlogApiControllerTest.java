@@ -45,7 +45,7 @@ class BlogApiControllerTest {
 
     @DisplayName("addArticle: 블로그 글 추가에 성공한다.")
     @Test
-    public void addAtrticle() throws  Exception {
+    public void addArticle() throws  Exception {
         final String url = "/api/articles";
         final String title = "title";
         final String content = "content";
