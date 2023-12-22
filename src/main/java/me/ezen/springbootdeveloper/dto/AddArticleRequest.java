@@ -10,6 +10,7 @@ import me.ezen.springbootdeveloper.domain.Article;
 @Getter
 public class AddArticleRequest {
     private String title;
+
     private String content;
 
     public Article toEntity() {
